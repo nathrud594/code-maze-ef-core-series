@@ -155,33 +155,6 @@
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.FileProviders.Abstractions/3.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.0"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Hosting.Abstractions/3.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.0",
-          "Microsoft.Extensions.FileProviders.Abstractions": "3.1.0",
-          "Microsoft.Extensions.Logging.Abstractions": "3.1.0"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.dll": {}
-        }
-      },
       "Microsoft.Extensions.Logging/3.1.0": {
         "type": "package",
         "dependencies": {
@@ -479,38 +452,6 @@
         "packageIcon.png"
       ]
     },
-    "Microsoft.Extensions.FileProviders.Abstractions/3.1.0": {
-      "sha512": "G3iBMOnn3tETEUvkE9J3a23wQpRkiXZp73zR0XNlicjLFhkeWW1FCaC2bTjrgHhPi2KO6x0BXnHvVuJPIlygBQ==",
-      "type": "package",
-      "path": "microsoft.extensions.fileproviders.abstractions/3.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
-        "microsoft.extensions.fileproviders.abstractions.3.1.0.nupkg.sha512",
-        "microsoft.extensions.fileproviders.abstractions.nuspec",
-        "packageIcon.png"
-      ]
-    },
-    "Microsoft.Extensions.Hosting.Abstractions/3.1.0": {
-      "sha512": "LiOP1ceFaPBxaE28SOjtORzOVCJk33TT5VQ/Cg5EoatZh1dxpPAgAV/0ruzWKQE7WAHU3F1H9Z6rFgsQwIb9uQ==",
-      "type": "package",
-      "path": "microsoft.extensions.hosting.abstractions/3.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.xml",
-        "microsoft.extensions.hosting.abstractions.3.1.0.nupkg.sha512",
-        "microsoft.extensions.hosting.abstractions.nuspec",
-        "packageIcon.png"
-      ]
-    },
     "Microsoft.Extensions.Logging/3.1.0": {
       "sha512": "P+8sKQ8L4ooL79sxxqwFPxGGC3aBrUDLB/dZqhs4J0XjTyrkeeyJQ4D4nzJB6OnAhy78HIIgQ/RbD6upOXLynw==",
       "type": "package",
@@ -714,8 +655,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.EntityFrameworkCore >= 3.1.0",
-      "Microsoft.EntityFrameworkCore.Relational >= 3.1.0",
-      "Microsoft.Extensions.Hosting.Abstractions >= 3.1.0"
+      "Microsoft.EntityFrameworkCore.Relational >= 3.1.0"
     ]
   },
   "packageFolders": {
@@ -770,10 +710,6 @@
             "version": "[3.1.0, )"
           },
           "Microsoft.EntityFrameworkCore.Relational": {
-            "target": "Package",
-            "version": "[3.1.0, )"
-          },
-          "Microsoft.Extensions.Hosting.Abstractions": {
             "target": "Package",
             "version": "[3.1.0, )"
           }
